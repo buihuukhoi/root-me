@@ -1,0 +1,5 @@
+./ch12 & cat /tmp/tmp_file.txt
+
+note: 	because ./ch12 will sleep for 0.25 seconds
+	if it's just sleep 0.01 seconds --> we need to run one 'cat' or './ch12' with a loop in background
+		--> run another command in foreground
